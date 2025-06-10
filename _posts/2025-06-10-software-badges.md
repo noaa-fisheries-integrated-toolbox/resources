@@ -23,12 +23,17 @@ Software badges can be placed at the top of your own coding projects! While badg
 
 Check out the [shields.io badging documentation](https://shields.io/badges) for information on how to make your own badges. Copy and paste the markdown examples into your GitHub repository to use the badges!
 
-We've included some selected examples of specific types of badges that could be helpful
+Below are some selected examples of specific types of badges that could be helpful.
 
 ### GitHub Actions Badges
 
+It is possible to [display a badge indicating the status](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge) of a GitHub action workflow.
+
 ### Code Coverage Badge
+
+For R packages, a GitHub Actions workflow can be used to [calculate code coverage and create a display badge](https://nmfs-ost.github.io/ghactions4r/reference/use_create_cov_badge.html). Code coverage indicates what percentage of your code is run in automated tests, and is a simple metric of amount of testing.
 
 ### Lifecycle Badges
 
+For R packages, the [lifecycle package](https://lifecycle.r-lib.org/) provides information on using conventions, including badges, to signal to uses what state an R package or its functions are in.
 
